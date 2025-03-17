@@ -1,0 +1,25 @@
+/my-portfolio 
+│── /frontend   (Next.js for UI) 
+│   ├── /pages 
+│   │   ├── index.js (Homepage) 
+│   │   ├── about.js (About Page) 
+│   │   ├── portfolio.js (Drone Videos) 
+│   │   ├── contact.js (Contact Form) 
+│   │   ├── _app.js (Global Styles) 
+│   ├── /components 
+│   │   ├── Navbar.js 
+│   │   ├── HeroSection.js 
+│   │   ├── VideoGallery.js 
+│   │   ├── ContactForm.js 
+│   ├── /styles 
+│── /backend   (Node.js with Express) 
+│   ├── server.js (Main API Server) 
+│   ├── /routes 
+│   │   ├── videos.js (Fetch/Upload Videos) 
+│   │   ├── contact.js (Handle Form Submissions) 
+│   ├── /models 
+│   │   ├── Video.js (Schema for Videos) 
+│   ├── .env (API keys) 
+│── package.json 
+│── README.md 
+│── .gitignore 
